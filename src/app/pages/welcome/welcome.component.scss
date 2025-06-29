@@ -1,0 +1,72 @@
+  .welcome-content {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+ 
+ 
+ .app-logo {
+            width: 80px;
+            height: 80px;
+            background: #ff6b6b;
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+        
+        .app-name {
+            font-size: 24px;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 10px;
+        }
+        
+        .app-tagline {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 40px;
+        }
+
+
+        .btn-primary {
+            background: #ff6b6b;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            border-radius: 8px;
+            font-weight: 500;
+            margin: 5px 0;
+            cursor: pointer;
+        }
+
+        .btn-secondary {
+            background: #f8f8f8;
+            color: #333;
+            border: 1px solid #ddd;
+            padding: 12px 20px;
+            border-radius: 8px;
+            font-weight: 500;
+            margin: 5px 0;
+            cursor: pointer;
+        }
+
+
+
+        .screen {
+            background: white;
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            border: 2px solid #ddd;
+            aspect-ratio: 9/16;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+        }
