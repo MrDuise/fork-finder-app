@@ -50,3 +50,19 @@
             border-radius: 2px;
             margin: 10px 0;
         }
+
+
+       
+button.my-text-button {
+  background: none;   /* Remove background */
+  border: none;       /* Remove border */
+  padding: 0;         /* Remove padding */
+  margin: 0;          /* Optional: remove margin */
+  color: inherit;     /* Use parent text color or set your own */
+  font: inherit;      /* Inherit font styling */
+  cursor: pointer;    /* Show pointer on hover */
+}
+
+button.my-text-button:hover {
+  text-decoration: underline;  /* Optional: mimic a link on hover */
+}

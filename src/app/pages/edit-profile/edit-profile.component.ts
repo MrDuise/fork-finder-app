@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+    import { Location } from '@angular/common';
 
 @Component({
   selector: 'app-edit-profile',
@@ -7,5 +8,9 @@ import { Component } from '@angular/core';
   styleUrl: './edit-profile.component.scss'
 })
 export class EditProfileComponent {
+    constructor(private location: Location) { }
 
+    goBack(): void {
+      this.location.back();
+    }
 }
